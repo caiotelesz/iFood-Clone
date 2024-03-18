@@ -1,0 +1,31 @@
+/* iFood */
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 300;
+  src: url(/public/font/iFood/iFoodRCTextos-Light.7a6b6afe.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 400;
+  src: url(/public/font/iFood/iFoodRCTextos-Regular.c1b7d6bf.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 500;
+  src: url(/public/font/iFood/iFoodRCTitulos-Regular.c82583ec.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 700;
+  src: url(/public/font/iFood/iFoodRCTitulos-Medium.c71e8250.woff2);
+}
+
+@font-face {
+  font-family: "Ifood";
+  font-weight: 900;
+  src: url(/public/font/iFood/iFoodRCTitulos-Bold.973a4645.woff2);
+}

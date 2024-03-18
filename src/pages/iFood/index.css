@@ -1,0 +1,655 @@
+/* https://parceiros.ifood.com.br/restaurante/como-funciona/entregas site usado */
+
+/* Header */
+
+.secao1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 14px 0;
+
+  border-bottom: 0.01px solid rgb(226, 226, 226);
+}
+
+.secao1 header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header1 {
+  display: flex;
+  flex-direction: row;
+  
+  font: 300 16px "Ifood";
+  padding: 20px 0px;
+}
+
+.header1 > div {
+  display: flex;
+  gap: 30px;
+}
+
+.secao1 a {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+}
+
+.header1_2 {
+  width: 350px;
+  padding-right: 60px;
+  line-height: 1.5;
+}
+
+.header1_2 a p {
+  font: 500 16px "Ifood";
+}
+
+.header1_2 a p span {
+  color: #f10707;
+}
+
+.header1_3 a {
+  display: flex;
+  align-items: center;
+}
+
+.header1_3 a p{
+  width: 100px;
+  display: flex;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: auto;
+  max-width: 0px 10px;
+}
+
+.header2 a{
+  font: 400 16px "Ifood";
+  color: #f10707;
+
+  border: 1px solid rgb(234, 29, 44);
+  border-radius: 6px;
+  
+  padding: 16px 30px;
+  display: flex;
+  width: 130px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.header2 button {
+  font: 400 16px "Ifood";
+  background-color: #f10707;
+  color: #fff;
+  border: 0px;
+  border-radius: 6px;
+
+  padding: 24px 16px;
+}
+
+/* Part2 */
+.secao2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  padding: 49px 28px;
+  margin: 0px 200px;
+}
+
+.text-secao2 {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  max-width: 400px;
+}
+
+.secao2 > div h1 {
+  font: 700 35px "Ifood";
+  color: rgb(62, 62, 62);
+  padding-top: 18px;
+}
+
+.secao2 > div h2 {
+  font: 700 13px "Ifood";
+  color: rgb(113, 113, 113);  
+}
+
+.secao2 > div p {
+  font: 400 21px "Ifood";
+  color: rgb(113, 113, 113);
+  line-height: 1.5;
+}
+
+.img-secao2 {
+  width: 100%;
+  max-width: 475px;
+}
+
+/* Part3 */
+.secao3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  margin: 0px 200px;
+  padding: 49px 28px;
+}
+
+.secao3 > div {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  max-width: 600px;
+
+  padding-right: 50px;
+}
+
+.secao3 > div h1 {
+  font: 500 30px "Ifood";
+  color: rgb(62, 62, 62);
+  margin-bottom: 60px;
+}
+
+.secao3 > div ul {
+  font: 400 18px "Ifood";
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 24px 0px;
+
+  width: auto;
+  max-width: 480px;
+  
+  color: rgb(62, 62, 62);
+}
+
+.secao3 > div p {
+  font: 400 18px "Ifood";
+  color: rgb(62, 62, 62);
+
+  display: flex;
+  text-align: left;
+
+  width: auto;
+  max-width: 500px;
+
+  line-height: 24px;
+}
+
+.img-secao3 {
+  width: 100%;
+  max-width: 385px;
+  height: 100%;
+  max-height: 525px;
+}
+
+/* Part4 */
+
+.secao4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+
+  margin: 0px 200px;
+  padding: 49px 28px;
+  gap: 100px;
+}
+
+.secao4 > div {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+  max-width: 600px;
+
+  padding-right: 50px;
+}
+
+.secao4 > div h1 {
+  font: 500 30px "Ifood";
+  color: rgb(62, 62, 62);
+  margin-bottom: 60px;
+}
+
+.secao4 > div ul {
+  font: 400 18px "Ifood";
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 24px 0px;
+
+  width: auto;
+  max-width: 480px;
+  
+  color: rgb(62, 62, 62);
+
+}
+
+.secao4 > div p {
+  font: 400 18px "Ifood";
+  color: rgb(62, 62, 62);
+
+  display: flex;
+  text-align: left;
+
+  width: auto;
+  max-width: 500px;
+
+  line-height: 24px;
+}
+
+.img-secao4 {
+  width: 100%;
+  height: 100%;
+  max-width: 385px; 
+  max-height: 525px;
+}
+
+/* Part 5 */
+
+.secao5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 0px 200px;
+  padding: 49px 28px;
+  gap: 30px;
+}
+
+.container1 > h1{
+  font: 900 31px 'Ifood';
+  color: rgb(62, 62, 62);
+  padding-bottom: 10px;
+}
+
+.container1 > p {
+  font: 300 28px 'Ifood';
+  color: rgb(113, 113, 113);
+  padding-top: 8px;
+}
+
+.container1 > button {
+  background-color: #f10707;
+  color: #fff;
+  border: 0px;
+  border-radius: 6px;
+
+  font: 400 18px 'Ifood';
+  padding: 11px 21px;
+  margin: 48px 0px;
+}
+
+.container2 > h1 {
+  font: 900 31px 'Ifood';
+  color: rgb(62, 62, 62);
+}
+
+.subcontainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.subcontainer1 > div {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.subcontainer1 > div h2 {
+  font: 700 21px 'Ifood';
+  color: rgb(62, 62, 62);
+  margin-top: 19px;
+
+}
+
+.subcontainer1 > div p {
+  font: 300 17px 'Ifood';
+  margin: 16px 0px;
+}
+
+.subcontainer1 > div a {
+  text-decoration: none;
+  color: #f10707;
+  font: 400 17px 'Ifood';
+}
+
+.subcontainer1_1 h2 {
+  text-align: left;
+}
+
+.subcontainer1_1 p{
+  text-align: left;
+  width: 300px;
+}
+
+.subcontainer1_1 a {
+  padding: 12px 16px;
+  
+}
+
+.subcontainer1_2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.subcontainer1_3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.img-secao5 {
+  width: 100%;
+  height: 100%;
+  max-width: 300px; 
+  max-height: 250px;
+}
+
+/* Part6 */
+.secao6 {
+  background-color: #F2F2F2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 70px 400px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.container-footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-right: 150px;
+}
+
+.container-footer1 h1 {
+  font: 600 16px 'Ifood';
+  color: rgb(62, 62, 62);
+}
+
+.container-footer1 a{
+  text-decoration: none;
+  font: 300 16px 'Ifood';
+  color: rgb(113, 113, 113);
+}
+
+.container-footer1 a:hover {
+  color: #f10707;
+}
+
+.container-footer1 > div {
+  display: flex;
+  gap: 28px;
+}
+
+hr.footerHr{
+  border: 0;
+  height: 1px;
+  background-color: #e0dbdb;
+
+  margin: 30px 0px;
+}
+
+.secao6 footer {
+  display: flex;
+  justify-content: start;
+
+  gap: 35px;
+}
+
+.secao6 footer > p {
+  font: 300 12px 'Ifood';
+  color: rgb(113, 113, 113);
+  line-height: 1.5;
+}
+
+.text1 { width: 260px; }
+.text2 { width: 240px; }
+
+.secao6 footer > a{
+  text-decoration: none;
+  font: 300 16px 'Ifood';
+  color: rgb(113, 113, 113);
+
+  padding: 7px 0px;
+
+  margin-right: 20px;
+}
+
+.secao6 footer > a:hover {
+  color: #f10707;
+}
+
+/* Responsive */
+
+@media(max-width: 765px) {
+  .pin-img, .header1_2 > a, .header1_3 > a, .header2 > a { display: none; }
+  .secao1 { 
+    display: flex;
+    justify-content: start;
+    padding: 14px 0;
+  }
+  .header1_2 { padding-right: 550px;}
+  .header1 {padding: 10px;}
+  .header2 a {font: 400 23px "Ifood";}
+
+  .secao2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .secao2 > div p { width: 630px; }
+  .img-secao2 { 
+    max-width: 702px;
+    max-height: 568px;
+   }
+
+  .secao3 {
+    display: flex;
+    flex-direction:column-reverse;
+    margin: 0;
+  }
+  .img-secao3 {
+    max-width: 723px;
+    max-height: 990px;
+  }
+  .secao3 > div {
+    padding-right: 0;
+  }
+  .secao3 > div p {
+    max-width: 800px;
+  }
+  .secao3 > div ul {
+    max-width: 800px;
+  }
+
+  .secao4 {
+    display: flex;
+    flex-direction:column-reverse;
+    margin: 0;
+  }
+  .secao4 > div {
+    padding-right: 0;
+  }
+  .secao4 > div p {
+    max-width: 800px;
+  }
+  .secao4 > div ul {
+    max-width: 800px;
+  }
+
+  .img-secao4 {
+    max-width: 709px;
+    max-height: 871px;
+  }
+
+  .secao5 {
+    margin: 0;
+    padding: 49px 20px;
+  }
+  .container1 > p {
+    font: 300 20px 'Ifood';
+  }
+  .subcontainer1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .subcontainer1 > div { padding: 0px;}
+  .subcontainer1 > div a { padding-bottom: 50px; }
+  .subcontainer1_1 p { width: 700px; }
+  .img-secao5 { max-width: 709px; max-height: 570px;}
+
+  .secao6 {
+    padding: 30px 20px 50px 20px;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer1 h1{
+    padding-top: 40px;
+  }
+
+  .container-footer1_2 { 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .secao6 footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text2 { width: 600px;}
+}
+
+@media screen and (max-width: 1024px) {
+  .header1 > div {
+    gap: 15px;
+  }
+
+  .header1_2 {
+    display: none;
+  }
+
+  .header1_3 {
+    display: none;
+  }
+
+  .header2 {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header2 a {
+    padding: 10px 20px;
+  }
+
+  .secao2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .secao2 > div {
+    max-width: 100%;
+  }
+
+  .img-secao2 > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .secao3,
+  .secao4 {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+  }
+
+  .secao3 > div,
+  .secao4 > div {
+    max-width: 100%;
+  }
+
+  .secao5 {
+    padding: 30px;
+  }
+
+  .container1,
+  .container2 {
+    max-width: 100%;
+  }
+
+  .subcontainer1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .subcontainer1 > div {
+    padding: 0;
+  }
+
+  .secao6 {
+    padding: 30px;
+  }
+
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    margin-right: 0;
+  }
+
+  .container-footer1 {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  hr.footerHr {
+    margin: 20px 0;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .text1,
+  .text2 {
+    width: auto;
+  }
+
+  .secao6 footer > p,
+  .secao6 footer > a {
+    margin-right: 0;
+  }
+}
